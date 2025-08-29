@@ -8,7 +8,7 @@ namespace WebApiEmployee.Model
 
         protected EmployeeContext() { }
 
-        public DbSet<Employee>  employees { get; set; }
+        public DbSet<Employee>  Employee { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
